@@ -25,3 +25,8 @@ class ItemModelAdmin(admin.ModelAdmin):
 admin.site.register(Restaurant, RestaurantModelAdmin)
 admin.site.register(Category, CategoryModelAdmin)
 admin.site.register(Item, ItemModelAdmin)
+
+
+### admin page header and title changed
+admin.site.site_title = 'Just Eat Admin'
+admin.site.site_header = 'Just Eat Admin'
